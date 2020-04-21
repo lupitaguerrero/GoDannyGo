@@ -130,6 +130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dick H.
       objectReference: {fileID: 0}
+    - target: {fileID: 404930812628854842, guid: e272f401a38fb4d78a5ffc9ba776a782,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5294335782802719186, guid: e272f401a38fb4d78a5ffc9ba776a782,
         type: 3}
       propertyPath: m_LocalPosition.x
