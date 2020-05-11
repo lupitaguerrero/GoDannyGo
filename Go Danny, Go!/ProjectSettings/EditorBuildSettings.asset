@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MazeLevel.unity
     guid: ea3f1f383be2d43daa2674289e76d533
+  - enabled: 1
+    path: Assets/Scenes/HotelLevelLeo.unity
+    guid: 653edf65590a6ee4ab32c1d8ae9b5bc9
   m_configObjects: {}

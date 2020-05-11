@@ -80,6 +80,11 @@ public class ThirdPersonCharacterController : MonoBehaviour
             rbody.AddForce(Vector3.up * jumpHeight, ForceMode.VelocityChange);
         }
 
+        if(rbody.position.y < -1f)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
+
         /*
         // Additions
         fallingVelocity.y -= gravity * Time.deltaTime;

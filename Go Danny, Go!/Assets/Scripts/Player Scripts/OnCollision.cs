@@ -13,7 +13,7 @@ public class OnCollision : MonoBehaviour
     {
         if (col.gameObject.tag == "Enemy")
         {
-            Destroy(gameObject);
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
 }
